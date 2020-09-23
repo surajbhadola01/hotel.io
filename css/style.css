@@ -1,0 +1,242 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Poppins';
+}
+.navbar {
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+  }
+/* header css start*/
+.nav-link{
+    color:#fff !important;
+    /* padding: 0 2rem !important; */
+    transition: 0.3s ease;
+}
+.nav-link:hover{
+    transform: scale(1.05);
+}  
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+
+
+.slide-wrapper {
+    position: relative;
+}
+
+
+.red-content {
+    padding: 4rem 6rem;
+    width: 100%;
+    height: 400px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+.red-content h1{
+    font-weight: 900;
+    font-size: 3.5rem;
+}
+.red-content h2{
+    font-weight: 600;
+    font-size: 2.5rem;
+    color:#57C2FF;
+}
+.red-content p{
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+.red-content a{
+    display: inline-block;
+    margin: 0.7rem 0;
+    padding: 1rem 4rem;
+    color:#fff;
+    background-color: #57C2FF;
+}
+.red {
+       
+        width: 900px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+    }
+    
+.about-row h3{
+    color: #57C2FF;
+}
+.about-row h1{
+    font-weight: 700;
+}
+.about-row p{
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 1.4;
+    color:rgb(189, 184, 184);
+}
+.work-sec h1{
+    color:#fff;
+    font-weight: 700;
+    font-size: 3rem;
+}
+.work-sec h2{
+    font-weight: 600;
+}
+.work-sec p{
+    color:#fff;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+/* start service css */
+.service-section h1{
+    padding: 3rem 0 0 0;
+    font-weight: 700;
+    font-size: 3rem;
+}
+.service-section p{
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 1.4;
+    color:rgb(189, 184, 184);
+}
+.blue-card{
+    color:#fff;
+    bottom: 0;
+    background-color: #57C2FF;
+    padding:1rem 2rem;
+    -webkit-transform: perspective(300px) rotateX(-30deg);
+    -o-transform: perspective(300px) rotateX(-30deg);
+    -moz-transform: perspective(300px) rotateX(-30deg);
+    -webkit-transform-origin: 0% 50%;
+    -moz-transform-origin: 0% 50%;
+    -o-transform-origin: 0% 50%;
+    transform-origin: 0% 50%;
+}
+/* end service css */
+
+/* contact css start */
+.contact-form{
+    background-color:#57C2FF;
+}
+.contact-sec h1{
+    padding: 3rem 0 0 0;
+    font-weight: 700;
+    font-size: 3rem;
+}
+/* contact css end */
+
+/* client sec css start */
+.client-div {
+    background-color:#EEEFEF;
+    z-index: 1000;
+    position: relative;
+    color:#fff;
+}
+.client-sec h1{
+    padding: 3rem 0 0 0;
+    font-weight: 700;
+    font-size: 3rem;
+}
+.client-sec p{
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color:rgb(255, 255, 255);
+}
+.client-div-2 {
+    position: absolute;
+    background-color:#57C2FF;
+    height:220px;
+    top: 10px;
+    z-index: -1;
+}
+.news-form h1{
+    color:#fff;
+    padding: 3rem 0 0 0;
+    font-weight: 700;
+    font-size: 3rem;
+}
+.news-form p{
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color:rgb(255, 255, 255);
+}
+li{
+    list-style: none;
+}
+
+/* client sec css end */
+
+/* footer start */
+.footer{
+    color:#fff;
+    background-color: #1A2428;
+}
+.footer h2{
+    font-size: 2rem;font-weight: 700;
+}
+.footer h3{
+    font-size: 1.2rem;font-weight: 500;
+}
+.footer li{
+    font-size: 1.2rem;font-weight: 100;
+}
+.footer span{
+    font-size: 1.2rem;font-weight: 600;
+}
+.footer i{
+    color: #57C2FF;;
+}
+/* footer end */
+    @media(max-width:778px){
+        html{
+            font-size: 14px;
+        }
+        .red{
+            display: none;
+        }
+        .red-content{
+            display: none;
+        }
+        #about-img{
+            width: 100%;
+            padding-left: 0 !important;
+            padding-top: 20px !important;
+        }
+        .client-div-2{
+            height: 280px;
+        }
+        .news-form input{
+            width: 100% !important;
+            margin-bottom: 10px;
+        }
+        .news-form span{
+            display: block !important;
+        }
+        .footer{
+            padding: 0 3rem;
+        }
+        
+    }
+
+    @media(max-width:986px){
+        .client-div-2{
+            height: 290px;
+        }
+    }
+
+
+
+
+
